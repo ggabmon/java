@@ -18,6 +18,7 @@ public class StuProProgram {
 				case 1:	
 						System.out.print("학생의 이름을 입력하세요> ");
 						input.nextLine( );
+						System.out.println("");
 						stu01.name = input.nextLine();
 						System.out.println("");
 						System.out.println("학생의 이름은 "+stu01.name);
