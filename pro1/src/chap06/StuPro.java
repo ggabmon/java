@@ -18,7 +18,7 @@ public class StuPro {
 	void callName() {
 		System.out.println("출석을 부르겠습니다.");
 		System.out.println(name);
-		if(todayCheck==true) {System.out.println("네");return;}
+		if(todayCheck==true) {System.out.println("네 \n 출석입니다");return;}
 		System.out.println("자리에 없으니 결석처리하겠습니다.");
 		return;
 	}
