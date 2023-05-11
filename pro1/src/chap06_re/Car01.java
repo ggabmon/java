@@ -24,10 +24,11 @@ public class Car01 {
 					// 	[접근제어자] [제어자] 타입 필드명[=초기값(생략가능)];
 					//	자주사용하는것 일수록 위로 두는것이 관례
 					// 고유데이터
-	String color = "red";		//	색상
-	int rpm = 10000;			//	RPM
-	String brand = " 볼보";		//	브랜드
-	double feulEfficiency = 10.5;	//	연비
+	private String color = "red";		//	색상 
+	//접근제어자 추가! 
+	private int rpm = 10000;			//	RPM
+	private String brand = "볼보";		//	브랜드
+	private double feulEfficiency = 10.5;	//	연비
 	boolean navi = true;		//	네비게이션유무
 	char aiGet= 'Y';			//	AI탑재유무
 					// 상태데이터 
@@ -35,6 +36,7 @@ public class Car01 {
 	int maxspeed=300;		//	최대속도
 	boolean boot = false;
 					// 부품데이터
+	
 	
 					//행동 제어 메소드
 	void powerOn() {
@@ -47,8 +49,15 @@ public class Car01 {
 	} 		// 전원 끄기
 	
 	
+	public String getBrand() {
+		return brand;
+	}//private으로 막혀있는 brand를 같은 class내에서 getBrand라는 method가 호출했을때엔 막혀있지 않아 다른 클래스에서 사용이 가능하게 해준다.
 	
-	
+	//필드의 값을 외부에 제공하는 getter method를 선언해보자.
+	// 하나하나 다 만들어야한다.... 굳이해야하나?
+	public String getcolor() {
+		return color;
+	}
 	
 	
 }
