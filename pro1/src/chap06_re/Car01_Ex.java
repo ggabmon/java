@@ -15,26 +15,26 @@ public class Car01_Ex {
 		System.out.println(car1); // chap06_re.Car01@15db9742
 		
 		
-		Car01 mycar = new Car01(); // Car01이라는 Class에서 객체를 하나 생성하자 그 이름은 mycar
-		System.out.println("내 차 색깔이 뭐니? "+mycar.color);
-		mycar.color = "황금색";
-		System.out.println("내 차 색이 바뀌었니?"+mycar.color);
-		System.out.println("-----------------------------");
-		
-		Car01 yourcar = new Car01();
-		System.out.println("네 차 색깔은 그대로니?"+yourcar.color);
-		
-		System.out.println("-----------------------------");
-		
-		System.out.println("내차 시동을 걸어보세요");
-		mycar.powerOn();
-		System.out.println("내차 시동을 꺼보세요");
-		mycar.powerOff();
-		
-		System.out.println("니 차 시동을 걸어보세요");
-		yourcar.powerOn();
-		System.out.println("니 차 시동을 꺼보세요");
-		yourcar.powerOff();
+//		Car01 mycar = new Car01(); // Car01이라는 Class에서 객체를 하나 생성하자 그 이름은 mycar
+//		System.out.println("내 차 색깔이 뭐니? "+mycar.color);
+//		mycar.color = "황금색";
+//		System.out.println("내 차 색이 바뀌었니?"+mycar.color);
+//		System.out.println("-----------------------------");
+//		
+//		Car01 yourcar = new Car01();
+//		System.out.println("네 차 색깔은 그대로니?"+yourcar.color);
+//		
+//		System.out.println("-----------------------------");
+//		
+//		System.out.println("내차 시동을 걸어보세요");
+//		mycar.powerOn();
+//		System.out.println("내차 시동을 꺼보세요");
+//		mycar.powerOff();
+//		
+//		System.out.println("니 차 시동을 걸어보세요");
+//		yourcar.powerOn();
+//		System.out.println("니 차 시동을 꺼보세요");
+//		yourcar.powerOff();
 
 	}
 
