@@ -1,10 +1,13 @@
 package selfstudying;
-
+import java.util.Stack;
+import java.util.Arrays;
+import java.math.*;
 public class Testing {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+	String a = "a";
+	System.out.println(a);
+	Arrays.sort
 	}
 
 }
