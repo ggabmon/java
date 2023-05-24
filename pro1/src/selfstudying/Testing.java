@@ -5,9 +5,15 @@ import java.math.*;
 public class Testing {
 
 	public static void main(String[] args) {
-	String a = "a";
-	System.out.println(a);
-	Arrays.sort
+		
+	Stack<Integer> stk = new Stack<>();
+	
+		
+		
+		
+		
+		
 	}
+	
 
 }
